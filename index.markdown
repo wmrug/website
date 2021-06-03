@@ -19,13 +19,16 @@ layout: home
   <h1 class="main-title">West Midlands<br>Ruby User Group</h1>
 
   <p class="tagline">
-    Promoting the Ruby programming language in the West Midlands and beyond.
+    Promoting the <a href="https://www.ruby-lang.org/en/">Ruby</a> programming language in the West Midlands and beyond.
   </p>
 </header>
 
-<section class="prose">
-  <p><a href="https://www.meetup.com/West-Midlands-Ruby-User-Group-WMRUG/">Join us</a> on the third Wednesday of every month to learn new things, make new friends and learn about Ruby.</p>
+<div class="cta">
+  <div class="cta-link"><a href="https://www.meetup.com/West-Midlands-Ruby-User-Group-WMRUG/">JOIN US</a></div>
+  <div class="cta-subtitle"><small>(almost)</small> every third Wednesday!</div>
+</div>
 
+<section class="prose">
   <h2>Recent Events</h2>
 
   {% for item in site.data.recentevents %}
