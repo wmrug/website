@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+.logo-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+section h1.main-title {
+  font-size: 2em;
+  text-align: center;
+}
+
+section.prose-body {
+  max-width: 70ch;
+  margin: 0 auto;
+}
