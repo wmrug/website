@@ -16,7 +16,7 @@ layout: home
     </svg>
   </div>
 
-  <h1 class="main-title">WMRUG</h1>
+  <h1 class="main-title">West Midlands<br>Ruby User Group</h1>
 
   <p class="tagline">
     Promoting the Ruby programming language in the West Midlands and beyond.
