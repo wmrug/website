@@ -3,19 +3,22 @@ body {
   background: #FCD7AD;
 }
 
-.logo-container {
-  width: 300px;
-  margin: 0 auto;
-  margin-top: 10vh;
-}
+header {
+  margin-top: 5vh;
 
-section h1.main-title {
-  font-size: 4em;
-  text-align: center;
-  color: #C93636;
-}
+  .logo-container {
+    width: 150px;
+    margin: 0 auto;
+  }
 
-section.prose-body {
-  max-width: 70ch;
-  margin: 0 auto;
+  h1.main-title {
+    font-size: 4em;
+    text-align: center;
+    color: #C93636;
+    margin: .4em 0 0 0;
+  }
+
+  p.tagline {
+    text-align: center;
+  }
 }

@@ -2,9 +2,9 @@
 layout: home
 ---
 
-<section class="prose-body">
+<header>
   <div class="logo-container">
-    <svg class="wmrug-logo" width="300" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="wmrug-logo" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M6 8H10L12 10L10 18H6L4 10L6 8Z" fill="#720F0F"/>
       <path d="M6 8L2 6L0 8L4 10L6 8Z" fill="#ECC5C5"/>
       <path d="M14 6L10 8L12 10L16 8L14 6Z" fill="#ECC5C5"/>
@@ -18,5 +18,7 @@ layout: home
 
   <h1 class="main-title">WMRUG</h1>
 
-  <p>The West Midlands Ruby User group aims to promote the use of the Ruby programming language throughout the West Midlands and beyond.</p>
-</section>
+  <p class="tagline">
+    Promoting the Ruby programming language in the West Midlands and beyond.
+  </p>
+</header>
