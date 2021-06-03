@@ -22,3 +22,16 @@ header {
     text-align: center;
   }
 }
+
+header + section.prose {
+  margin-top: 4em;
+}
+
+section.prose {
+  width: 70ch;
+  margin: 0 auto;
+
+  h2, h3 {
+    margin-top: 2em;
+  }
+}

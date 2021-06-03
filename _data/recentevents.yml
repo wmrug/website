@@ -1,0 +1,17 @@
+- date: May 26th, 2021
+  name: "Hotwire: What is it and why?"
+  link: https://jsrn.net/talks/hotwire/#/
+  description: "From many of the people who brought us Rails, we now have Hotwire: a collection of tools intended to help developers build fast, interactive web applications with minimal client-side JS."
+- date: April 21st, 2021
+  name: General Ruby Social
+  description: General Ruby chatter
+- date: February 17th, 2021
+  name: Ruby and Chill
+  description: General Ruby chatter
+- date: January 20th, 2021
+  name: "There and Rack Again: What is Rack and Why?"
+  link: https://jsrn.net/talks/there-and-rack-again/#/
+  description: What do we owe to Rack, the underlying technology of many Ruby web frameworks?
+- date: November 18th 2020
+  name: Ruby Warrior AI using FSMs
+  description: Solving Ryan Bates' Ruby Warrior gaming using Finite State Machines.

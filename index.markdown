@@ -22,3 +22,23 @@ layout: home
     Promoting the Ruby programming language in the West Midlands and beyond.
   </p>
 </header>
+
+<section class="prose">
+  <p><a href="https://www.meetup.com/West-Midlands-Ruby-User-Group-WMRUG/">Join us</a> on the third Wednesday of every month to learn new things, make new friends and learn about Ruby.</p>
+
+  <h2>Recent Events</h2>
+
+  {% for item in site.data.recentevents %}
+    <h3>
+      {% if item.link %}
+      <a href="{{ item.link }}">{{ item.date }} - {{ item.name }}</a>
+      {% else %}
+      {{ item.date }} - {{ item.name }}
+      {% endif %}
+    </h3>
+
+    <p>
+      {{ item.description }}
+    </p>
+  {% endfor %}
+</section>
